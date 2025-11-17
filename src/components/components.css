@@ -30,6 +30,16 @@
 	justify-content: center;
 }
 
+.news-item a{
+  text-decoration:none;
+  color: rgb(31, 33, 36);
+}
+
+.news-item a:hover{
+  text-decoration:none;
+  color: rgb(66, 123, 230);
+}
+
 .header {
 	background: rgb(218, 240, 250);
 }
@@ -53,6 +63,10 @@
 }
 .article-body li {
 text-align: left;
+}
+.article-body ul {
+  list-style-position: inside;
+  padding: 0 10px;
 }
 .article-btn {
   padding: 15px;

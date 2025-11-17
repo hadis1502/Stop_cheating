@@ -6,8 +6,7 @@ const NewsList = ({ newsItems }) => {
     <section className="news-list">
       {newsItems.map((item, index) => (
         <div key={index} className="news-item">
-          <h4>{item.title}</h4>
-          <p>{item.content}</p>
+          <a href={item.link} target="_blank"><h4>{item.title}</h4></a>
           <time>{item.date}</time>
         </div>
       ))}

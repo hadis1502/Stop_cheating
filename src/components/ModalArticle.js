@@ -4,7 +4,7 @@ import './components.css';
 const articles = [
   {
     id: 1,
-    title: 'Memo 1: 10 phrases after which you should immediately hang up the phone ',
+    title: 'Notes 1: 10 phrases after which you should immediately hang up the phone ',
     content: `<h1>Typical fraudulent phrases and schemes on the phone</h1>
 <p>The following are common phrases used by telephone scammers. Be vigilant and don't fall for tricks!</p>
 
@@ -23,7 +23,7 @@ const articles = [
   },
   {
     id: 2,
-    title: 'Memo 2: How to check if the call is really from the bank',
+    title: 'Notes 2: How to check if the call is really from the bank',
     content: ` 
 
     <h2>1. Check the phone number</h2>
@@ -82,7 +82,7 @@ const articles = [
   },
   {
     id: 3,
-    title: 'Memo 3: What to answer to scammers: ready-made phrases',
+    title: 'Notes 3: What to answer to scammers: ready-made phrases',
     content: `
 
     <div class="phrases">
